@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+
+            android:text="Button"
+            />
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+
+            />
+
+                <CheckBox
+            android:layout_width="78dp"
+            android:layout_height="58dp" />
+
+        <RadioButton
+            android:layout_width="81dp"
+            android:layout_height="58dp" />
+
+        <Spinner
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+             />
+
+        <AutoCompleteTextView
+            android:layout_width="237dp"
+            android:layout_height="58dp"
+
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+
+            />
+        <DatePicker
+            android:id="@+id/simpleDatePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"/>
+
+        <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginLeft="180dp"/>
+
+
+        </LinearLayout>
+</ScrollView>
